@@ -43,3 +43,6 @@ translations-update:
 
 translations-compile:
 	pybabel compile -f -d CTFd/translations
+
+build:
+	docker build -t ctfd .

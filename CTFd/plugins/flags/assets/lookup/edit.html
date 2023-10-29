@@ -1,0 +1,20 @@
+<label>
+	Key<br>
+	<small>Enter the value of the Key to Lookup and Match</small>
+</label>
+<div class="form-group">
+	<input type="text" class="form-control" name="content" value="{{ content }}">
+</div>
+<label>
+	Data Prefix<br>
+	<small>Enter the S3 Prefix to find the data.</small>
+</label>
+<div class="form-group">
+	<input type="text" class="form-control" name="data" value="{{ data }}">
+</div>
+<input type="hidden" name="type" value="lookup">
+<input type="hidden" name="id" value="{{ id }}">
+<hr>
+<div class="form-group">
+	<button class="btn btn-success float-right">Update</button>
+</div>
